@@ -1,0 +1,10 @@
+C:\Users\vela\Desktop\skola\Hrastnik\Binary Search Practice\Binary Search Practice\obj\Debug\Binary Search Practice.csprojAssemblyReference.cache
+C:\Users\vela\Desktop\skola\Hrastnik\Binary Search Practice\Binary Search Practice\obj\Debug\Binary_Search_Practice.Form1.resources
+C:\Users\vela\Desktop\skola\Hrastnik\Binary Search Practice\Binary Search Practice\obj\Debug\Binary_Search_Practice.Properties.Resources.resources
+C:\Users\vela\Desktop\skola\Hrastnik\Binary Search Practice\Binary Search Practice\obj\Debug\Binary Search Practice.csproj.GenerateResource.cache
+C:\Users\vela\Desktop\skola\Hrastnik\Binary Search Practice\Binary Search Practice\obj\Debug\Binary Search Practice.csproj.CoreCompileInputs.cache
+C:\Users\vela\Desktop\skola\Hrastnik\Binary Search Practice\Binary Search Practice\bin\Debug\Binary Search Practice.exe.config
+C:\Users\vela\Desktop\skola\Hrastnik\Binary Search Practice\Binary Search Practice\bin\Debug\Binary Search Practice.exe
+C:\Users\vela\Desktop\skola\Hrastnik\Binary Search Practice\Binary Search Practice\bin\Debug\Binary Search Practice.pdb
+C:\Users\vela\Desktop\skola\Hrastnik\Binary Search Practice\Binary Search Practice\obj\Debug\Binary Search Practice.exe
+C:\Users\vela\Desktop\skola\Hrastnik\Binary Search Practice\Binary Search Practice\obj\Debug\Binary Search Practice.pdb
