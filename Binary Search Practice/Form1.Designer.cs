@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.inputTextBox = new System.Windows.Forms.TextBox();
             this.minButton = new System.Windows.Forms.Button();
             this.vsotaButton = new System.Windows.Forms.Button();
             this.maxButton = new System.Windows.Forms.Button();
@@ -40,14 +40,15 @@
             this.urediVstavljanjemButton = new System.Windows.Forms.Button();
             this.urediMehurckiButton = new System.Windows.Forms.Button();
             this.hitroUrediButton = new System.Windows.Forms.Button();
+            this.arrayLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // inputTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(37, 38);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 0;
+            this.inputTextBox.Location = new System.Drawing.Point(37, 38);
+            this.inputTextBox.Name = "inputTextBox";
+            this.inputTextBox.Size = new System.Drawing.Size(100, 22);
+            this.inputTextBox.TabIndex = 0;
             // 
             // minButton
             // 
@@ -57,6 +58,7 @@
             this.minButton.TabIndex = 1;
             this.minButton.Text = "Min";
             this.minButton.UseVisualStyleBackColor = true;
+            this.minButton.Click += new System.EventHandler(this.minButton_Click);
             // 
             // vsotaButton
             // 
@@ -66,6 +68,7 @@
             this.vsotaButton.TabIndex = 2;
             this.vsotaButton.Text = "Vsota";
             this.vsotaButton.UseVisualStyleBackColor = true;
+            this.vsotaButton.Click += new System.EventHandler(this.vsotaButton_Click);
             // 
             // maxButton
             // 
@@ -75,6 +78,7 @@
             this.maxButton.TabIndex = 3;
             this.maxButton.Text = "Max";
             this.maxButton.UseVisualStyleBackColor = true;
+            this.maxButton.Click += new System.EventHandler(this.maxButton_Click);
             // 
             // poprecjeButton
             // 
@@ -84,6 +88,7 @@
             this.poprecjeButton.TabIndex = 4;
             this.poprecjeButton.Text = "Poprečje";
             this.poprecjeButton.UseVisualStyleBackColor = true;
+            this.poprecjeButton.Click += new System.EventHandler(this.poprecjeButton_Click);
             // 
             // dodajButton
             // 
@@ -93,6 +98,7 @@
             this.dodajButton.TabIndex = 5;
             this.dodajButton.Text = "dodaj";
             this.dodajButton.UseVisualStyleBackColor = true;
+            this.dodajButton.Click += new System.EventHandler(this.dodajButton_Click);
             // 
             // vsebujeButton
             // 
@@ -102,6 +108,7 @@
             this.vsebujeButton.TabIndex = 6;
             this.vsebujeButton.Text = "Vsebuje";
             this.vsebujeButton.UseVisualStyleBackColor = true;
+            this.vsebujeButton.Click += new System.EventHandler(this.vsebujeButton_Click);
             // 
             // vsebujeBinarnoButton
             // 
@@ -111,6 +118,7 @@
             this.vsebujeBinarnoButton.TabIndex = 7;
             this.vsebujeBinarnoButton.Text = "Vsebuje binarno";
             this.vsebujeBinarnoButton.UseVisualStyleBackColor = true;
+            this.vsebujeBinarnoButton.Click += new System.EventHandler(this.vsebujeBinarnoButton_Click);
             // 
             // urediIzbiranjemButton
             // 
@@ -148,11 +156,20 @@
             this.hitroUrediButton.Text = "Hitro uredi";
             this.hitroUrediButton.UseVisualStyleBackColor = true;
             // 
+            // arrayLabel
+            // 
+            this.arrayLabel.AutoSize = true;
+            this.arrayLabel.Location = new System.Drawing.Point(13, 392);
+            this.arrayLabel.Name = "arrayLabel";
+            this.arrayLabel.Size = new System.Drawing.Size(0, 17);
+            this.arrayLabel.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.arrayLabel);
             this.Controls.Add(this.hitroUrediButton);
             this.Controls.Add(this.urediMehurckiButton);
             this.Controls.Add(this.urediVstavljanjemButton);
@@ -164,7 +181,7 @@
             this.Controls.Add(this.maxButton);
             this.Controls.Add(this.vsotaButton);
             this.Controls.Add(this.minButton);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.inputTextBox);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -174,7 +191,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox inputTextBox;
         private System.Windows.Forms.Button minButton;
         private System.Windows.Forms.Button vsotaButton;
         private System.Windows.Forms.Button maxButton;
@@ -186,6 +203,7 @@
         private System.Windows.Forms.Button urediVstavljanjemButton;
         private System.Windows.Forms.Button urediMehurckiButton;
         private System.Windows.Forms.Button hitroUrediButton;
+        private System.Windows.Forms.Label arrayLabel;
     }
 }
 
